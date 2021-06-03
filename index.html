@@ -18,7 +18,13 @@
     <img id="yosemite2" src="assets/2.yosemite.jpg" >
     <video id="vid1" src=""></video>
   </a-assets>
-
+      <a-entity camera look-controls>
+  <a-entity cursor="fuse: true; fuseTimeout: 500"
+            position="0 0 -1"
+            geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
+            material="color: orange; shader: flat">
+  </a-entity>
+</a-entity>
       <a-box position="0 5 -5" rotation="0 130 0" color="#fff" opacity="0.5"></a-box>
       <a-text value="Yosemite" scale="5 5 0.5" color="gold" align="center" position="0 3.5 -5" width="2"></a-text>
 <a-text value="Park Guide" scale="2 2 0.5" color="yellow" align="center" position="0 3 -5" width="2"></a-text>
